@@ -12,8 +12,8 @@ class Container extends React.Component {
     constructor() {
       super();
       this.speed = 100;
-      this.rows = 40;
-      this.cols = 50;
+      this.rows = 25;
+      this.cols = 25;
   
       this.state = {
         generation: 0,
@@ -79,15 +79,15 @@ class Container extends React.Component {
       switch (size) {
         case "1":
           this.cols = 100;
-          this.rows = 100;
+          this.rows = 50;
           break;
         case "2":
-          this.cols = 70;
-          this.rows = 70;
+          this.cols = 50;
+          this.rows = 50;
           break;
         default:
-          this.cols = 50;
-          this.rows = 40;
+          this.cols = 25;
+          this.rows = 25;
       }
       this.clear();
     };
