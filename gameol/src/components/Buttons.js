@@ -30,18 +30,18 @@ class Buttons extends React.Component {
             <button className="btn btn-default" onClick={this.props.seed}>
               Seed
             </button>
-        
+            <div display="inline-block">
             <DropdownButton
-              title="Grid Size"              
-              id="size-menu"
-              onSelect={this.handleSelect}
-            >                      
-              <Dropdown.Item className="btnitm" eventKey="1" href="#/eventKey-1">100x100</Dropdown.Item>
-              <Dropdown.Item className="btnitm" eventKey="2" href="#/eventKey-2">70x70</Dropdown.Item>
-              <Dropdown.Item className="btnitm" eventKey="3" href="#/eventKey-3">50x40</Dropdown.Item>
-
-            </DropdownButton>
-        
+            title="Grid Size"
+            id="size-menu"
+            drop="down"
+            onSelect={this.handleSelect}
+          >
+            <Dropdown.Item  eventKey="1"> [  100x100  ] </Dropdown.Item >
+            <Dropdown.Item  eventKey="2"> [  70x70  ] </Dropdown.Item >
+            <Dropdown.Item  eventKey="3"> [  50x40  ] </Dropdown.Item >
+          </DropdownButton>
+          </div>
           </ButtonToolbar>
         
         </div>
