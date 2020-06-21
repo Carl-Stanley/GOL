@@ -1,0 +1,77 @@
+body {
+    /*background-image: url(https://as2.ftcdn.net/jpg/02/50/26/33/500_F_250263370_H9Cxi6EZrV8wxUwlGB9JTBpCldWqJW3Q.jpg) 
+    */
+  } 
+
+  .btn {
+    background: rgb(66, 184, 221);
+    width: 75px;
+    border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+   
+}
+
+.DropdownButton {
+
+  display:inline-block;
+
+}
+
+.btnitm {
+
+  width: 100px;
+  
+
+}
+
+  h1, h2, h3, h4 {
+    color: rgb(60, 0, 255);
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+    background-color: white;
+    border: blue 1px;
+  }
+  
+  
+  .off {
+    background-color: rgba(211, 211, 211, 0.609);
+  }
+  
+  .on {
+    background-color: rgb(114, 95, 224);
+  }
+    
+  .box:hover { 
+    background: #00CCFF;
+  }
+  
+  .center {
+    margin: auto;
+    display: table;
+    margin-top: 10px;
+    width: 500px;
+  }
+  
+  .grid {
+    width: 200px;
+    line-height: 0;
+    margin: auto;
+    box-shadow: 0px 0px 20px white;
+    margin-top: 25px;
+  }
+    
+  
+  h4 {
+    margin-top: 0px;
+  }
+
+  .box {
+    display: inline-block;       
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    }
