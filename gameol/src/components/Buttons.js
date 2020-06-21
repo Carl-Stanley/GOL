@@ -1,7 +1,8 @@
 import React from "react";
 import { ButtonToolbar, Dropdown, DropdownButton} from "react-bootstrap";
-import DropdownItem from "react-bootstrap/DropdownItem";
+ 
 
+// The buttons and Grid size Dropdown. 
 class Buttons extends React.Component {
     handleSelect = eventKey => {
       this.props.gridSize(eventKey);

@@ -1,6 +1,7 @@
 import React from "react";
 import Gridbox from './Gridbox';
 
+// The main grid
 const Grid = props => {
     const width = props.cols * 14;
     let boxClass = "";

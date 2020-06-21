@@ -1,5 +1,6 @@
 import React from "react";
 
+// Each little box. 
 class Gridbox extends React.Component {
     selectBox = () => {
       this.props.selectBox(this.props.row, this.props.col);
