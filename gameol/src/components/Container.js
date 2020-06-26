@@ -123,7 +123,7 @@ class Container extends React.Component {
     render() {
       return (
         <div>
-          <h1>Conway's Game of Life</h1>
+          <h1><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a></h1>
           <h2>Generations: {this.state.generation}</h2>
           <Buttons
             playButton={this.playButton}
